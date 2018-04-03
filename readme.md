@@ -1,11 +1,11 @@
  ST Recover 
 
-![](images/cercle_surface_10_secteurs_sur4.png)  
+![](Manual/images/cercle_surface_10_secteurs_sur4.png?raw=true)  
 ST Recover  
 
   
   
-![](images/interface_secteurs_sur2.png)  ![](images/interface_surface_sur2.png)  
+![](Manual/images/interface_secteurs_sur2.png?raw=true)  ![](Manual/images/interface_surface_sur2.png?raw=true)  
 **  
   
   
@@ -13,7 +13,7 @@ Project Description**
   
 ST Recover can read Atari ST floppy disks on a PC under Windows, including special formats as 800 or 900 KB and damaged or desynchronized disks, and produces standard .ST disk image files. Then the image files can be read in ST emulators as WinSTon or [Steem](http://steem.atari.st/index.htm).  
   
-![](images/schema_transfert.png)  
+![](Manual/images/schema_transfert.png?raw=true)  
 ST disk  ->  PC floppy drive  ->  .ST disk image file  
   
   
@@ -29,25 +29,22 @@ Required configuration
   
 The particularities  
   
-1.  
-Normally, Windows cannot read special formats (as 800 or 900 KB) because of limitations of its floppy driver.  
+1.  Normally, Windows cannot read special formats (as 800 or 900 KB) because of limitations of its floppy driver.  
 Unfortunately, these formats are very common in the world of the ST.  
 ST Recover takes advantage of a [free driver](http://simonowen.com/fdrawcmd/) that can read these special formats.  
   
-2.  
-An effort has been done to recover desynchronized or damaged disks.  
+2.  An effort has been done to recover desynchronized or damaged disks.  
   
-3.  
-You can see the geography of sectors on your disk:  
-![](images/cercle_surface_10_secteurs.png) This is the surface of one face of a real 800 Kb disk. The black line on the right is the virtual synchronization mark.  
+3.  You can see the geography of sectors on your disk:  
+![](Manual/images/cercle_surface_10_secteurs.png?raw=true) This is the surface of one face of a real 800 Kb disk. The black line on the right is the virtual synchronization mark.  
   
   
   
 On your real PC, a not-USB floppy disk drive is needed for special formats  
 
-![](images/lecteur_disquettes_externe.png)  
+![](Manual/images/lecteur_disquettes_externe.png?raw=true)  
 
-![](images/lecteur_disquettes_interne.png)  
+![](Manual/images/lecteur_disquettes_interne.png?raw=true)  
 
 External (USB) floppy drive.  
 Limited to:  
@@ -78,7 +75,7 @@ But a USB drive can read ordinary formats as 360 or 720 Kb.
   
 Installation  
 
-> version avec pilote inclu dans le Zip (impossible dans codeplex)
+Download the release Zip.
 
 There are 4 steps:  
 
@@ -120,7 +117,7 @@ Use
 .Surface analysis  
   
 If your disk seems to be damaged, or just for curiosity, click on "Analyze surface" to see a geographic analysis of the sectors on the disk.  
-![](images/cercle_surface_10_secteurs.png)  
+![](Manual/images/cercle_surface_10_secteurs.png?raw=true)  
 Each "split circle" represents a Track (the color is alternated from one track to the next one), and each part of this circle represents a Sector, which is a packet of 512 bytes (in general).  
 The line on the right represent the location of the virtual synchronization mark on the disk. Sectors are read counterclockwise from the mark.  
   
@@ -153,7 +150,7 @@ FAQ
         Fortunately, in most case ST Recover is able to read these sectors, at the price of a slow analysis. These sectors are marked as dark blue in the Tables of sectors.
     
 *   Why some sectors are marked as dark blue in the Tables of sectors, and the analysis is very slow ?
-    *   See [above](../../notice.html#missing_sectors) for an explanation. These sectors are correctly read, although slowly.
+    *   See above for an explanation. These sectors are correctly read, although slowly.
 
   
 Compilation of the source code  
@@ -175,7 +172,7 @@ Slow disks
 Sometimes, a disk takes time to be read.  
 The possible reasons can be:  
 
-*   The disk is [desynchronized](#desynchronized_disk).
+*   The disk is desynchronized.
 *   The disk is partially physically damaged.  
     In that case, sectors will be colored in red.  
     
@@ -184,12 +181,12 @@ The possible reasons can be:
 .Desynchronized disk  
   
 This kind of disk will take more time to be read, and the sector tables will display blue rectangles:  
-![](images/secteurs_desynchronises.png)  
+![](Manual/images/secteurs_desynchronises.png?raw=true)  
   
 Blue rectangles indicate particular, but well-read, sectors. In fact, here these sectors only need more time to be read, but they are read correctly (otherwise, the color would be red).  
   
-To understand what is desynchronization, run a [surface analysis](#surface_analysis):  
-![](images/surface_avec_secteur_marque_256c.png)  
+To understand what is desynchronization, run a surface analysis:  
+![](Manual/images/surface_avec_secteur_marque_256c.png?raw=true)  
 As you can see, one sector per track is not detected, and just in the middle on where it should be (the red triangle), the synchronization mark (the green line) passes through.  
 The explanation is: the drive's head passes ahead the track from the line, but it is too late to see the beginning of the sector, so the first sector is not detected by the surface test.  
 But trying to read the first sector is possible on the next turn, it just takes more time.  
