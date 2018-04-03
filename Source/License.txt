@@ -1,0 +1,10 @@
+
+All files and materials present in this directory and in its sub-directories are copyrighted by Christophe Bertrand.
+Programming source code files are licenced under the Microsoft Reciprocal License (Ms-RL). You can find a copy of this license in the file "Ms-RL License.htm".
+
+
+
+
+
+
+

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2010/10/28 11:40:33.031.cpp,C:\Documents and Settings\Chris\Mes documents\Projets Borland Studio\Unit1.cpp=D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Unit1.cpp</Transaction>
+    <Transaction>2010/10/28 11:40:33.031.h,C:\Documents and Settings\Chris\Mes documents\Projets Borland Studio\Unit1.h=D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Unit1.h</Transaction>
+    <Transaction>2010/10/28 11:40:33.031.dfm,C:\Documents and Settings\Chris\Mes documents\Projets Borland Studio\Unit1.dfm=D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Unit1.dfm</Transaction>
+    <Transaction>2010/10/28 11:40:47.843.bdsproj,C:\Documents and Settings\Chris\Mes documents\Projets Borland Studio\Project1.bdsproj=D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\ST_Recover.bdsproj</Transaction>
+    <Transaction>2010/10/30 21:52:45.234.cpp,D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Unit2.cpp=D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Acces_disque.cpp</Transaction>
+    <Transaction>2010/10/30 21:52:45.250.h,D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Unit2.h=D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Acces_disque.h</Transaction>
+    <Transaction>2010/10/30 22:48:13.484.cpp,D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Unit2.cpp=D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Classe_Disquette.cpp</Transaction>
+    <Transaction>2010/10/30 22:48:13.500.h,D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Unit2.h=D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Classe_Disquette.h</Transaction>
+    <Transaction>2010/10/31 12:14:54.671.cpp,D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Unit2.cpp=D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\UnitAnalyse.cpp</Transaction>
+    <Transaction>2010/10/31 12:14:54.671.h,D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Unit2.h=D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\UnitAnalyse.h</Transaction>
+    <Transaction>2010/10/31 12:14:54.671.dfm,D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Unit2.dfm=D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\UnitAnalyse.dfm</Transaction>
+    <Transaction>2010/10/31 13:13:09.281.cpp,D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Unit2.cpp=D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Analyse_disque.cpp</Transaction>
+    <Transaction>2010/10/31 13:13:09.281.h,D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Unit2.h=D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Analyse_disque.h</Transaction>
+    <Transaction>2010/10/31 13:15:52.609.cpp,D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Analyse_disque.cpp=</Transaction>
+    <Transaction>2010/10/31 13:16:24.562.cpp,D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Unit2.cpp=D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Analyse_disque.cpp</Transaction>
+    <Transaction>2010/10/31 13:16:24.562.h,D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Unit2.h=D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Analyse_disque.h</Transaction>
+    <Transaction>2010/11/01 22:04:56.296.cpp,D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\UnitAnalyse.cpp=</Transaction>
+    <Transaction>2010/11/01 22:04:56.312.dfm,D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\UnitAnalyse.dfm=</Transaction>
+    <Transaction>2010/11/06 18:15:34.515.cpp,D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Unit2.cpp=D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Classe_Piste.cpp</Transaction>
+    <Transaction>2010/11/06 18:15:34.515.h,D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Unit2.h=D:\_____DISQUETTES_CHRIS_ATARI_ST_____\ST_recover\Classe_Piste.h</Transaction>
+  </Transactions>
+</BorlandProject>

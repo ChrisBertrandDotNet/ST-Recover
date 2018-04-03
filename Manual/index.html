@@ -1,0 +1,320 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+
+  
+  <meta content-language="en" /><title>ST Recover</title>
+  
+
+  
+  
+  <link rel="stylesheet" href="styles.css" type="text/css" /></head><body>
+<div style="text-align: center;"><img style="width: 96px; height: 95px;" alt="" src="images/cercle_surface_10_secteurs_sur4.png" /><br />
+
+<span class="titre">ST Recover</span><br />
+</div>
+
+<br />
+<br />
+<img style="width: 431px; height: 288px;" alt="" src="images/interface_secteurs_sur2.png" />&nbsp; <img style="width: 431px; height: 288px;" alt="" src="images/interface_surface_sur2.png" /><br />
+<strong><br /><br />
+<br />
+Project Description</strong>
+<br />
+<br />
+ST Recover can read Atari ST floppy disks on a PC under Windows, including
+special formats as 800 or 900 KB and damaged or desynchronized disks, and produces standard <span style="font-style: italic;">.ST</span>
+disk image files. Then the image files can be read in ST emulators as WinSTon or <a href="http://steem.atari.st/index.htm">Steem</a>.<br />
+
+<br />
+<img style="width: 358px; height: 200px;" alt="" src="images/schema_transfert.png" /><br />
+ST disk&nbsp; -&gt;&nbsp; PC floppy drive&nbsp; -&gt;&nbsp; .ST disk image file<br />
+
+
+
+<br />
+<br />
+<span style="font-weight: bold;">Required configuration</span><br />
+<ul>
+  <li>A PC with a floppy disk drive.<br />
+Internal is better, but external can be used, with limitations.</li>
+  <li>Windows.<br />
+Should be compatible with Windows 8,7,Vista,XP,2000,ME,98,95 and later.<br />
+Tested with Vista.<br />
+  </li>
+</ul>
+<br />
+<span style="font-weight: bold;">The particularities</span><br />
+<br />
+1.<br />
+Normally, Windows cannot read special formats (as 800 or 900 KB) because of limitations of its floppy driver.<br />
+Unfortunately, these formats are very common in the world of the ST.<br />
+ST Recover takes advantage of a <a href="http://simonowen.com/fdrawcmd/">free driver</a> that can read these special formats.<br />
+<br />
+2.<br />
+An effort has been done to recover desynchronized or damaged disks.<br />
+<br />
+3.<br />
+You can see the geography of sectors on your disk:<br />
+<img style="width: 193px; height: 189px;" alt="" src="images/cercle_surface_10_secteurs.png" /> This is the surface of one face of a real 800 Kb disk. The black line on the right is the virtual synchronization mark.<br />
+
+<br /><span style="font-weight: bold;"><br />
+<br />
+On your real PC, a <span style="font-style: italic;">not-USB </span>floppy disk drive is needed for special formats</span><br />
+<table style="text-align: left;" border="1" cellpadding="2" cellspacing="0">
+  <tbody>
+    <tr>
+      <td><img style="width: 150px; height: 126px;" alt="" src="images/lecteur_disquettes_externe.png" /><br />
+      </td>
+      <td><img style="width: 150px; height: 93px;" alt="" src="images/lecteur_disquettes_interne.png" /><br />
+      </td>
+    </tr>
+    <tr>
+      <td class="petit" style="vertical-align: top;">External (USB) floppy drive.<br />
+Limited to:<br />
+      <ul>
+        <li>360 KB</li>
+        <li>720 KB<br />
+        </li>
+      </ul>
+      </td>
+      <td class="petit" style="vertical-align: top;">Internal floppy drive.<br />
+Allows all formats:<br />
+
+      <ul>
+        <li>360 KB</li>
+        <li>720 KB<br />
+  </li>
+      </ul>
+      <ul>
+<li>400 KB</li><li>800 KB<br />
+          <br />
+</li>
+        <li>450 KB</li>
+        <li>900 KB</li>
+      </ul>
+Etc..<br />
+
+
+      </td>
+    </tr>
+  </tbody>
+</table>With a USB disk drive, ST Recover cannot read special formats, because of the interface limitations.<br />
+But a USB drive can read ordinary formats as 360 or 720 Kb.<br />
+<br /><br />
+<span style="font-weight: bold;">Installation</span><br />
+<span style="font-family: David;">
+<blockquote type="cite">version avec pilote inclu dans le Zip (impossible dans codeplex)</blockquote>
+</span>There are 4 steps:<br />
+<ol>
+  <li>Download the Zip file.</li>
+  <li>Extract it.</li>
+  <li>Install the floppy driver (FdInstall 1.0.1.11.exe) to be able to read special formats.<br />
+This is optional and you will need administrator rights.<br />
+  </li>
+  <li>Run ST_Recover.exe .<br />
+There is no installer, so it is portable.<br />
+</li>
+</ol>
+
+[ <span style="font-family: David;">version sans pilote inclus</span> ]<br />
+<br />
+There are 4 steps:<br />
+
+<ol>
+<li>Download and install the <a target="_blank" href="http://simonowen.com/fdrawcmd/">floppy driver</a> from a third-party web site.<br />
+
+This is optional (but needed for special formats) and you will need administrator rights.<br />
+</li>
+  <li>Download ST Recover's Zip file.</li>
+<li>Extract it.</li><li>Run ST_Recover.exe .<br />
+There is no installer, so it is portable.<br />
+</li>
+</ol>
+<span style="font-weight: bold;"><br />
+Use</span><br />
+<ol>
+  <li>Run ST Recover.</li>
+  <li>Insert an ST disk in the PC drive.</li>
+  <li>If necessary, select the right drive (A or B).<br />
+  </li>
+  <li>Click on "Read disk and save image file".</li>
+  <li>Select the location and the name of the image file to be created.</li>
+  <li>Wait.<br />
+  </li>
+</ol>
+<span style="font-weight: bold;"><br />
+<a name="surface_analysis">.</a>Surface analysis</span><br style="font-weight: bold;" />
+<br />
+If your disk seems to be damaged, or just for curiosity, click on
+"Analyze surface" to see a geographic analysis of the sectors on the
+disk.<br />
+<img style="width: 193px; height: 189px;" alt="" src="images/cercle_surface_10_secteurs.png" /><br />
+Each "split circle" represents a Track (the color is alternated from one track to the next one), and each part of this circle
+represents a Sector, which is a packet of 512 bytes (in general).<br />
+The line on the right represent the location of the virtual
+synchronization mark on the disk. Sectors are read counterclockwise from the mark.<br />
+<br />
+This representation is computed from a timing analysis during sectors
+reading. So it represents the real disposition of the sectors on the
+disk (except for the diameter of the inner circles, which is relatively bigger in
+reality).<br />
+<br />
+It is interesting to notice that the outer sectors occupy more physical
+space than the inner sectors (in reality they are about twice bigger).
+That explains why the first sectors (the track 0 is the outer track)
+are considered more secure than the last sectors (the inner track is
+the last one) : more magnetic surface for the same amount of data.<br />
+On modern hard disks, the surface of the sectors is (almost) constant,
+that allows to gain 50% sectors more but needs a (bit) more complex
+processing. On cdroms, the surface/sector is constant but the rotation
+speed change. Anyway many technicals have changed since the old time of
+the floppy disks, MFM hopefully disappeared, we have a constant
+surface/sector, there are more than two levels per information, etc..<br />
+<br />
+<br />
+<span style="font-weight: bold;">FAQ</span>
+<ul>
+<li>The software says "No disk in drive" but there <span style="font-style: italic;">is</span> a disk !</li>
+  <ul>
+    <li>Maybe the very first sector, the boot sector, is not read correctly.<br />
+Try again to read the disk, it should work after a few tries.<br />
+    </li>
+  </ul>
+  <li>What mean the colors in the Tables of sectors ?<ul><li>White: not analyzed for now.</li><li>Green: read (with ease).</li><li>Dark blue: read (with more analysis).</li><li>Red: cannot be read at all (maybe physically damaged), even after several tries.</li></ul>
+	</li>
+<li>What if a sector cannot be read ?<ul><li>ST Recover will replace its data by a repetitive sentence, in order 
+		to help you to detect it with ease.<br />
+		It should be "======== SORRY, THIS SECTOR CANNOT BE READ FROM FLOPPY 
+		DISK BY ST RECOVER. ========", or something close.<br />
+		In the Tables of sectors, this sector will be marked as red.</li></ul>
+	</li><li>In the Surface graphs, the "circles" are not closed. Is there missing 
+	something ?<ul><li><a name="missing_sectors"> </a>Usually, in that case one sector is not 
+	easily read. That is very common with the disks formatted through some ST 
+	programs (as <i>Fastcopy Pro</i>, for example), with more than 9 
+	sectors/track. The first sector of each track is not seen by the floppy 
+	controller in ordinary conditions.<br />
+	Fortunately, in most case ST Recover is able to read these sectors, at the 
+	price of a slow analysis. These sectors are marked as dark blue in the 
+	Tables of sectors.</li></ul>
+<a name="missing_sectors"> </a></li><li><a name="missing_sectors"> </a>Why some sectors are marked as dark blue in the Tables of sectors, and 
+	the analysis is very slow ?<ul><li>See <a href="../../notice.html#missing_sectors">above</a> for an explanation. These 
+	sectors are correctly read, although slowly.</li></ul>
+	</li>
+</ul>
+
+
+<br />
+<span style="font-weight: bold;">Compilation of the source code</span><br />
+<br />
+The code was edited and compiled with <a href="http://www.turboexplorer.com/">Borland Turbo C++ 2006 Explorer</a>, a free RAD.<br />
+It is supposed to be compilable with later versions of Borland (<a href="http://www.embarcadero.com">Embarcadero</a>) C++ Builder. I did not try them since I don't have any of these RADs.<br />
+Turbo C++ 2006 Explorer was free but it seems not to be distributed
+anymore. It needed a registration and the installation of several
+software as dot.net 1 and JSharp.<br />
+By the way, my source code is commented in french.<br />
+<br />
+<br />
+<span style="font-weight: bold;">License</span><br />
+<br />
+The license for the source code and the binaries is the Ms-RL, which
+globally allows you to reproduce the code, modify it, distribute it,
+but you have to make the source code of the modifications available.<br />
+Also, it is patent-free.<br />
+<br />
+<br />
+<span style="font-weight: bold;">Slow disks</span><br />
+<br />
+Sometimes, a disk takes time to be read.<br />
+The possible reasons can be:<br />
+<ul>
+  <li>The disk is <a href="#desynchronized_disk">desynchronized</a>.</li>
+  <li>The disk is partially physically damaged.<br />
+In that case, sectors will be colored in red.<br />
+  </li>
+</ul>
+
+<br /><a name="desynchronized_disk">.</a><span style="font-weight: bold;">Desynchronized disk</span><br />
+<br />
+This kind of disk will take more time to be read, and the sector tables will display blue rectangles:<br />
+<img style="width: 575px; height: 384px;" alt="" src="images/secteurs_desynchronises.png" /><br />
+<br />
+Blue rectangles indicate particular, but well-read, sectors. In fact,
+here these sectors only need more time to be read, but they are read
+correctly (otherwise, the color would be red).<br />
+<br />
+To understand what is desynchronization, run a <a href="#surface_analysis">surface analysis</a>:<br />
+<img style="width: 575px; height: 384px;" alt="" src="images/surface_avec_secteur_marque_256c.png" /><br />
+As you can see, one sector per track is not detected, and just in the
+middle on where it should be (the red triangle), the synchronization mark (the green line) passes
+through.<br />
+The explanation is: the drive's head passes ahead the track from the
+line, but it is too late to see the beginning of the sector, so the
+first sector is not detected by the surface test.<br />
+But trying to read the first sector is possible on the next turn, it
+just takes more time.<br />
+<br />
+More details: I had to implement a particular analysis
+of the track, in order to be able to extract the (blue) sector information.
+Fortunately, the special driver can extract a whole track ! That is a question of <a href="http://en.wikipedia.org/wiki/Modified_Frequency_Modulation">MFM</a> decoding, with partially desynchronised (6250) bytes per track and so on.<br />
+By the way, the decoding &amp; recover method is all about <span style="font-style: italic;">MFM</span> bit desynchronization, nothing to do with the <span style="font-style: italic;">disk</span> synchronization mark:<br />
+The disk desynchronized mark is the origin of the problem, due to a bad
+setting in the drive which originally formatted the disk, and the MFM
+decoding and resynchronization if a method I use to recover the sector.<br />
+<br />
+<br />
+If you followed the explanation, you should have noticed that the
+problem is with the first sector of each track. So why in the table of
+sectors the blue rectangles are not all in the upper row ? This is
+because the sectors were not numbered normally during formatting, they
+where shift in order to allow the drive controller (the processor that
+manages the drive) more time to move the head to the next track (it
+takes time and the disk goes on turning) and to read as early as possible the next
+sector.<br />
+Sorry if I am not clear enough, you should find information on internet about how speeding up floppy disk accesses through <a href="http://en.wikipedia.org/wiki/Interleaving#Interleaving_in_disk_storage"><span style="font-style: italic;">sector interleaving</span></a>.<br />
+<br />
+<br />
+<span style="font-weight: bold;">Not tested</span><br />
+<br />
+There are formats I did not test:<br />
+<ul>
+  <li>Sector length different from 512 (128, 256 or 1024).<br />
+As far as I remember, I did not write much logic to take those lengths into account (it was not my goal).<br />
+  </li>
+  <li>Protected disks where physical format is different from the logical format (as indicated in the boot sector).<br />
+For example some sectors can be numbered not from 1 but from 40.</li>
+  <li>Protected disks where sectors are not well-formed.<br />
+For example they can be cut in the middle just to fool the disk copy programs.</li>
+  <li>900 KB disks. I need to format a new 900 KB disk on my old ST then try to read it with my rather old desktop PC.<br />
+  </li>
+</ul>
+That is because I made this little tool to recover my own old work on ST disks, but not to analyze protected or abnormal disks.<br />
+
+<br />
+<br />
+<span style="font-weight: bold;">Legal</span><br />
+<br />
+Text and images of this document are copyright by Christophe Bertrand under the <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA license</a>, except:<br />
+<ul>
+  <li>The Atari ST image is under the CC-BY-2.5 — Attribution license by Bill Bertram. See <a href="https://en.wikipedia.org/wiki/File:Atari_1040STf.jpg">here</a>.</li>
+  <li>The Crystal floppy, hard-disk and directory icons are under the LGPL, and are from the <a href="http://www.everaldo.com/crystal/">Crystal Project</a>.</li>
+  <li>The desktop PC image is public domain and was found <a href="https://commons.wikimedia.org/wiki/File:Desktop-PC.svg">here</a>.<br />
+  </li>
+</ul>
+</body></html>

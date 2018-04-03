@@ -1,0 +1,23 @@
+body {
+  font-family: Verdana;
+  font-size: medium;
+  line-height: normal;
+  font-weight: normal;
+}
+.titre {
+  font-size: xx-large;
+  font-weight: normal;
+  text-align: center;
+}
+.petit {
+  font-size: small;
+}
+table {
+  border: 1px solid #5fced2;
+  margin-top: 4pt;
+  margin-bottom: 4pt;
+}
+a {
+  color: #00003f;
+  text-decoration: underline;
+}
