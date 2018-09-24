@@ -74,7 +74,7 @@ There are 4 steps:
 
 1. If you have an internal floppy drive, install [this external free software](http://simonowen.com/fdrawcmd/#download).
 Then run *FdInstall.exe*.
-2. Download the [Zip file](https://github.com/ChrisBertrandDotNet/ST-Recover/releases/download/Windows/ST_Recover_1.0_90EB9F5DB9540A0A25D0442E25F100DCC6B2A8FB3D889594BC38195AE2502AF2.zip) of ST Recover
+2. Download the [Zip file](https://github.com/ChrisBertrandDotNet/ST-Recover/releases/download/Windows/ST_Recover_1.0_90EB9F5DB9540A0A25D0442E25F100DCC6B2A8FB3D889594BC38195AE2502AF2.zip) of ST Recover.
 3. Extract it.
 4. Run *ST_Recover.exe*.  
     There is no installer, it is portable.
@@ -191,7 +191,7 @@ There are formats I did not test:
 *   900 KB disks. I need to format a new 900 KB disk on my old ST then try to read it with my rather old desktop PC.  
     
 
-The reason is I made this little tool in order to recover my own old work on ST disks. Not to analyze protected or abnormal disks.  
+The reason I made this little tool  is to be able to recover my own old work that was ST disks. Not to analyze protected or abnormal disks.
   
   
 ## Legal  
