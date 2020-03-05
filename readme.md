@@ -107,11 +107,8 @@ On modern hard disks, the surface of the sectors is (almost) constant, that allo
 ## FAQ
 
 *   The software says "*No disk in drive*" but there is a disk !
-
-*   Maybe the very first sector, the boot sector, is not read correctly.  
-    Try again to read the disk, it should work after a few tries.  
-    
-
+    *   Maybe the very first sector, the boot sector, is not read correctly.  
+    *   Try again to read the disk, it should work after a few tries.  
 *   What mean the colors in the Tables of sectors ?
     *   White: not analyzed for now.
     *   Green: read (with ease).
@@ -198,6 +195,6 @@ The reason I made this little tool  is to be able to recover my own old work tha
   
 Text and images of this document are copyright by Christophe Bertrand under the [CC-BY-SA license](https://creativecommons.org/licenses/by-sa/3.0/), except:  
 
-*   The Atari ST image is under the CC-BY-2.5 — Attribution license by Bill Bertram. See [here](https://en.wikipedia.org/wiki/File:Atari_1040STf.jpg).
+*   The Atari ST image is under the CC-BY-2.5 Â— Attribution license by Bill Bertram. See [here](https://en.wikipedia.org/wiki/File:Atari_1040STf.jpg).
 *   The Crystal floppy, hard-disk and directory icons are under the LGPL, and were from the [Crystal Project](http://www.everaldo.com/crystal/).
 *   The desktop PC image is public domain and was found [here](https://commons.wikimedia.org/wiki/File:Desktop-PC.svg).
